@@ -1,0 +1,14 @@
+.pending-collaborator-card {
+  width: 30%;
+}
+.pending-collaborator-card img {
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.pending-collaborator-card p {
+  color: blue;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=pending-collaborators.css.map */

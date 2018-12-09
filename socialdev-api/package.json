@@ -1,0 +1,33 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "debug": "node debug .",
+    "test": "mocha logic/index.spec.js --timeout 15000",
+    "debug-test": "mocha debug logic/index.spec.js",
+    "coverage": "nyc mocha ./logic/index.spec.js --timeout 15000",
+    "coverage-report": "nyc report --reporter=html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "busboy": "^0.2.14",
+    "cloudinary": "^1.13.2",
+    "data": "file:../socialdev-data",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "multer": "^1.4.1",
+    "sharp": "^0.21.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-things": "^0.2.0",
+    "nyc": "^13.1.0"
+  }
+}

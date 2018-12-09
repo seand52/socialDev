@@ -1,0 +1,42 @@
+.create-project__name-label, .create-project__description-label, .create-project__select-label, .create-project__technologies-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.create-project__select {
+  width: 60px;
+}
+
+.create-project-form-section {
+  margin: 0 auto;
+}
+
+.create-project__skills-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.checkbox {
+  flex: 0 0 30%;
+}
+
+.rules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.form-control {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.checkbox {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=create-project.css.map */

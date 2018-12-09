@@ -1,0 +1,157 @@
+.explore-container {
+    padding: 10px;
+    min-height: 100vh;
+    background-color: rgb(233, 231, 231);
+    & h2 {
+        margin-bottom: 20px;
+    }
+}
+
+.explore-header {
+    background-image: url('../../images/explore-image-2.jpg');
+    height: 200px;
+    border-radius: 20px;
+    color: white;
+    & h2 {
+        margin-bottom: 20px;
+    }
+
+}
+
+.searchbar-container {
+    position: relative;
+    top: 80px;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: left;
+    border-radius: 20px;
+}
+
+.explore-search-form {
+    text-align: left;
+    & label {
+        color: white;
+
+    }
+}
+
+.filters {
+    // flex: 0.3;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    max-height: 650px;
+    @media only screen and (max-width: 890px) {
+        margin-right: 20px;
+    }
+
+}
+
+.explore-searchbar {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 15px;
+    opacity: 0.7;
+}
+
+
+
+.explore-search-button {
+    background: #538AC5;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+    width: 20%;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+
+
+.search-area {
+    flex: 0.7;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-left: 60px;
+    min-height: 600px;
+    @media only screen and (max-width: 990px) {
+        margin: 20px;
+        // display: block;
+        flex: 1;
+
+
+    }
+
+}
+
+.filter-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+
+    & form {
+        text-align: left
+    }
+
+    & h1 {
+        text-align: center;
+    }
+}
+
+
+.search-results {
+ display: flex;
+
+    
+}
+
+.main-explore-area {
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.explore-search-form__label {
+    display: flex;
+    width: 100%
+}
+
+.checkbox {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.search-city-input {
+    width: 100%;
+}
+
+.filter-skills-mobile {
+    display: none;
+    @media only screen and (max-width: 576px) {
+        display: block
+    }
+}
+
+.filters {
+    display: block;
+
+    @media only screen and (max-width: 576px) {
+        display: none;
+    }
+}

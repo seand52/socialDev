@@ -1,0 +1,57 @@
+// .skills-tag{
+//     border-radius: 30px;
+//     background-color: thistle;
+//     min-width: 50px;
+//     max-width: 100px;
+//     margin-left: 1px;
+//     padding: 5px;
+//     flex: 0 50%;
+//     margin-top: 20px;
+//     cursor: pointer;
+// }
+
+.skills-tag {
+    background: lightgray;
+    border: none;
+    border-radius: 10px;
+    color: rgb(85, 88, 88);
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    cursor: pointer;
+  }
+
+  .skills-tag-match {
+    background: rgb(28, 231, 130);
+    border: none;
+    border-radius: 10px;
+    color: rgb(85, 88, 88);
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    cursor: pointer;
+  }
+  
+  
+
+  
+  .skills-tag:hover {
+    background-color: rgb(229, 252, 208);
+    color: rgb(172, 142, 142);
+  }
+  
+  .skills-tag:hover::after {
+     border-left-color: rgb(167, 146, 150); 
+  }
+
+  

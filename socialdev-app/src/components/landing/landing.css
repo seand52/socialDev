@@ -1,0 +1,72 @@
+.top-area-landing {
+    display: flex;
+  }
+  
+  .img-container {
+    width: 100%;
+    height: 60vh;
+    background: url("../../images/landingv4.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  @media only screen and (max-width: 1100px) {
+    .img-container {
+      height: 100vh;
+    }
+  }
+  
+  .title-container {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+  }
+  .title-container h1 {
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .app-info {
+    width: 100%;
+    height: 40vh;
+    background-color: antiquewhite;
+    display: flex;
+    text-align: center;
+
+  }
+  @media only screen and (max-width: 1100px) {
+    .app-info {
+      display: none;
+    }
+  }
+  .app-info h2 {
+    font-size: 1.5em;
+  }
+  .app-info__detail {
+    flex: 0 0 33%;
+    align-self: center;
+
+    height: 100px;
+  }
+  
+  /* .fa {
+    font-size: 4em;
+  } */
+  .fa-code:before, .fa-group:before, .fa-users:before, .fa-search:before {
+    font-size: 3em;
+  }
+
+  .explore{
+    margin-left: 21px;
+  }
+    
+  /*# sourceMappingURL=styles.css.map */
+  

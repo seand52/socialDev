@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+node_modules
+*.zip
+.sass-cache
+package-lock.json
+yarn-lock.json
+.atom-live-server.json

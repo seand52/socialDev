@@ -1,0 +1,47 @@
+.background-container {
+  background: url("../../images/landing.png") no-repeat center center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+.form-container {
+  margin: 300px auto 20px auto;
+  text-align: center;
+}
+@media only screen and (min-width: 1100px) {
+  .form-container {
+    margin: 350px auto 20px auto;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form__input {
+  margin-bottom: 20px !important;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 1100px) {
+  .form__input {
+    width: 20%;
+    height: 30px;
+  }
+}
+.form__button {
+  border: 1px solid black;
+}
+@media only screen and (min-width: 1100px) {
+  .form__button {
+    width: 12%;
+    height: 30px;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */

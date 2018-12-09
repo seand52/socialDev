@@ -1,0 +1,271 @@
+.summary {
+    background-color: rgb(200, 231, 245);
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+}
+
+.profile-page-container {
+    background-color: rgb(245, 240, 240);
+    min-height: 100vh
+}
+
+
+
+.edit-profile-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-button-container {
+    text-align: right;
+}
+
+.bio-paragraph {
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
+.edit {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profile-top-area {
+    
+    // display: flex;
+    // flex-direction: row;
+    // align-items: center;
+    // justify-content: center;
+    // background: aliceblue;
+    margin: 20px;
+    
+    padding-top: 20px;
+    // border: 3px solid rgb(67, 64, 245);
+    // border-radius: 10px;
+}
+
+.projects-container {
+    @media only screen and (min-width: 900px) {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+}
+
+.projects-container__card {
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
+    & img {
+        height: 100px;
+        width: 100px;
+        @media only screen and (min-width: 1100px) {
+            width: 150px;
+        }
+    } 
+
+    & div {
+        flex: 1;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    @media only screen and (min-width: 1100px) {
+        width: 100%;
+        // margin-right: 20%;
+        // margin-left: 5%;
+        // margin: 40px 20% 40px 5%;
+    }
+
+}
+.right-section {
+
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    margin: 20px;
+    border-radius: 10px;
+
+    @media only screen and (max-width: 900px) {
+        border: none;
+        box-shadow: none;
+    }
+
+}
+
+.basic-info {
+    text-align: left;
+    & span {
+        font-weight: bold;
+        
+    }
+}
+
+.bio {
+    border: 2px solid #ccc;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    @media only screen and (max-width: 576px) {
+            margin-left: 0px; 
+            margin-top: 15px;
+    }
+
+
+    & span {
+        font-weight: bold;
+    }
+
+    &__extra-info {
+        // flex: 1 0 0;
+        // text-align: left;
+        padding: 10px;
+    }
+
+    &__interests {
+        flex: 1 0 0;
+    }
+
+    & h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.3em;
+
+    }
+
+    & p {
+        line-height: 1.3;
+        text-align: left;
+
+    }
+
+    // @media only screen and (min-width: 1100px) {
+    //     width: 70%;
+    //     margin: 20px auto;
+    // }
+}
+
+
+
+.skills-tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.groups, .collaborate, .interests {
+    text-align: center;
+}
+
+.projects {
+    margin: 20px;
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    @media only screen and (max-width: 900px) {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+.main-area {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin: 60px 20px;
+    padding-top: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: aliceblue; 
+    @media only screen and (max-width: 576px) {
+
+    }
+    & h1 {
+        font-weight: bold;
+    }
+}
+
+.projects h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+.main-area__projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-grow: 0 !important;
+    margin-top: 20px;
+}
+
+.profile-meetup-card {
+    margin: 0 auto 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+
+}
+
+.conversation-img-container {
+    height: 75px;
+    width: 75px;
+
+
+    // border-radius: 50%;
+    // & img {
+    //     display: block;
+    //     width: 100%;
+    //     height: auto;
+    //     border-radius: 50%;
+    //     overflow: hidden;
+    // }
+}
+
+.conversation-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.conversation-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.conversation-card {
+    border: none;
+}

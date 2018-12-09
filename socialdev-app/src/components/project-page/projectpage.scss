@@ -1,0 +1,283 @@
+.project-top-section {
+
+    width: 80%;
+    margin: 20px auto !important;
+
+}
+
+
+.project-image-container {
+    width: 200px;
+    & img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+}
+
+.extrainfo-image-container {
+    width: 100px;
+    @media only screen and (max-width: 765px) {
+        text-align: center;
+    }
+    & .extrainfo__image-profile {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        overflow: hidden;
+        @media only screen and (max-width: 765px) {
+            height: 100px;
+            width: 100px;
+        }
+    }
+}
+
+
+
+
+.project-page-new-meeting {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top-section__extrainfo {
+    display: flex;
+    margin-left: 20px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.owner-name-and-email {
+    text-align: left;
+    @media only screen and (max-width: 765px) {
+        text-align: center;
+    }
+}
+
+.project-page-header-additional-info {
+    & span {
+        font-weight: bold;
+    }
+
+    &__user-link {
+        color: blue;
+        cursor: pointer;
+    }
+
+    & h1 {
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+}
+
+.project-page-header-collab-and-favourites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.project-page-main-section-container {
+    height: 100vh;
+    @media only screen and (max-width: 800px) {
+        height: auto;
+    }
+    background-color: rgb(245, 240, 240);
+    box-shadow:  inset 0px 7px 3px -3px rgba(50, 50, 50, 0.75);
+}
+
+
+
+.project-page-project-info {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 500px;
+    overflow: auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: aliceblue;
+    @media only screen and (max-width: 576px) {
+        margin-left: 0px;
+    }
+
+    & h2 {
+        font-weight: bold;
+    }
+
+    & h3 {
+        font-weight: 500;
+    }
+}
+
+.common-interests-display {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.project-page-meetings {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 650px;
+    overflow: auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: aliceblue;
+    @media only screen and (max-width: 576px) {
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    & h2 {
+        font-weight: bold;
+    }
+}
+
+
+.delete-meeting-button {
+    background: none;
+    border: none;
+    
+}
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\F00D";
+    color: red;
+    cursor: pointer;
+    size: 15px;
+}
+
+.meeting-actions {
+    & span {
+        font-weight: bold;
+    }
+}
+
+.members {
+    margin-bottom: 0;
+}
+
+.meeting-details {
+    text-align: left;
+}
+
+.individual-meeting-container {
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 8.33%;
+border: 2px solid #ccc;
+border-radius: 20px;
+@media only screen and (max-width: 576px) {
+    margin-left: 0;
+}
+}
+
+.collapse {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-page-collaborators-display {
+
+    margin-bottom: 20px;
+    & h1 {
+        font-weight: bold;
+    }
+
+}
+
+.project-page-collaborators {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: aliceblue;
+    @media only screen and (max-width: 576px) {
+        margin-left: 0px;
+    }
+    & h1 {
+        font-weight: bold;
+    }
+}
+
+.project-name-mobile {
+    display: none;
+    @media only screen and (max-width: 765px) {
+        display: block;
+    }
+}
+
+.project-name {
+    display: block;
+    @media only screen and (max-width: 765px) {
+        display: none;
+    }
+}
+
+.container__image--project {
+
+    height: 200px;
+
+}
+
+.project__image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.project__image {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container__image--host-profile {
+
+    height: 75px;
+    width: 75px;
+    @media only screen and (max-width: 765px) {
+        transform: translateX(110px);
+
+    }
+
+}
+
+.host-profile__image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.host-profile__image {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.fa-circle-o:before {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.fa-circle:before {
+    margin-right: 10px;
+    font-size: 15px;
+}
+

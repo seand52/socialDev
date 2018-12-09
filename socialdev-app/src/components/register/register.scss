@@ -1,0 +1,65 @@
+.background-container {
+    background: url('../../images/landing.png') no-repeat center center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    // background: lime; /* Just to visualize the extent */
+
+    @media only screen and (min-width: 1100px) {
+
+    }
+    
+
+}
+
+.form-container {
+    margin: 300px auto 20px auto;
+    text-align: center;
+
+    @media only screen and (min-width: 1100px) {
+        margin: 350px auto 20px auto;
+    }
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__input {
+        margin-bottom: 20px;
+        @media only screen and (min-width: 1100px) {
+            width: 20%;
+            height: 30px;
+        }
+    }
+
+    &__button {
+        border: 1px solid black;
+        @media only screen and (min-width: 1100px) {
+            width: 12%;
+            height: 30px;
+        }
+    }
+
+}
+
+.go-back {
+    color:white;
+    font-weight: bold;
+}
+
+.go-back__button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    color: rgb(74, 228, 228);
+    cursor: pointer;
+}
+

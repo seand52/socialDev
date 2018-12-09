@@ -1,0 +1,40 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chai": "^4.2.0",
+    "data": "file:../socialdev-data",
+    "mdbreact": "^4.8.3",
+    "react": "^16.6.3",
+    "react-datepicker": "^2.0.0",
+    "react-dom": "^16.6.3",
+    "react-md-spinner": "^0.3.0",
+    "react-moment": "^0.8.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-tabs": "^2.3.0",
+    "sessionstorage": "^0.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "coverage": "nyc mocha ./src/logic.spec.js --timeout 15000",
+    "coverage-report": "nyc report --reporter=html"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "nyc": "^13.1.0"
+  }
+}

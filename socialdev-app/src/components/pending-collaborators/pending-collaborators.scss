@@ -1,0 +1,13 @@
+.pending-collaborator-card {
+    width: 30%;
+    & img {
+        width: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    & p {
+        color: blue;
+        cursor: pointer;
+    }
+}

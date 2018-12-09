@@ -1,0 +1,26 @@
+.collab-card {
+    margin-left: 20px;
+    margin-top: 20px;
+    & img {
+        width: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    & p {
+        color: blue;
+        cursor: pointer;
+    }
+}
+
+.remove-collab-button {
+    width: 70%;
+    border-radius: 10px;
+    background: rgb(240, 122, 122);
+    color: white;
+    cursor: pointer;
+    @media only screen and (max-width: 750px) {
+        width: 90%;
+        font-size: 12px;
+    }
+}
